@@ -1,0 +1,3 @@
+# Lab 4: the only install. Use a fresh venv; tested on Python 3.12 (3.10 won't work: no numpy 2.3.5 for it).
+scalesim==3.0.0
+numpy==2.3.5        # SCALE-Sim 3.0.0 breaks on numpy 2.4+ (an implicit array->int conversion became an error)
